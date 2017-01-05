@@ -17,6 +17,7 @@ Ionic原生iOS插件Demo
 4.一般文件
 
 &lt;header-file src="src/ios/CRCSideTables.h"/&gt;
+
 &lt;source-file src="src/ios/CRCSideTables.m"/&gt;
     
 # js调用
