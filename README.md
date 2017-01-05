@@ -14,6 +14,11 @@ Ionic原生iOS插件Demo
 
 &lt;framework src="src/ios/xxx.framework" custom="true"/&gt;
 
+4.一般文件
+
+&lt;header-file src="src/ios/CRCSideTables.h"/&gt;
+&lt;source-file src="src/ios/CRCSideTables.m"/&gt;
+    
 # js调用
 CRCSideTables.getApproverTree(
       function (response) {
