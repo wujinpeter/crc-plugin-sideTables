@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="crc-plugin-sideTables" version="0.01" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>CRCSideTables</name>
+  <js-module name="CRCSideTables" src="www/CRCSideTables.js">
+    <clobbers target="CRCSideTables"/>
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="CRCSideTables">
+        <param name="ios-package" value="CRCSideTables"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/CRCSideTables.h"/>
+    <source-file src="src/ios/CRCSideTables.m"/>
+    <header-file src="src/ios/CRCSideTablesViewController.h"/>
+    <source-file src="src/ios/CRCSideTablesViewController.m"/>
+    <header-file src="src/ios/pinyin.h"/>
+    <source-file src="src/ios/pinyin.c"/>
+  </platform>
+</plugin>
